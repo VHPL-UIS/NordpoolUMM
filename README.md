@@ -2,6 +2,8 @@
 
 This project is designed to handle Urgent Market Messages (UMM) using a .NET Core backend and a frontend built with JavaScript and Chart.js.
 
+![Alt text](assets/UMM.png)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
