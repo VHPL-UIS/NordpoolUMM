@@ -38,13 +38,13 @@ To set up and run the project locally, follow these steps:
       http://localhost:{port}/api/umm/production-unavailability
 
       ```
-3. A simple visualization is provided with Chart.js through the localhost:
-```
-http://localhost:5257/html/index.html
-```
 
 ## Usage
 Once the backend is running, you can use the frontend to visualize the data. The frontend is built with JavaScript and Chart.js, providing an interactive interface for analyzing urgent market messages.
+Visualization is provided with Chart.js through the localhost:
+```
+http://localhost:5257/html/index.html
+```
 
 ## API Endpoints
 - **GET /api/umm/production-unavailability/{startDate}&{endDate}**: Retrieves production unavailability data for the specified date range.
