@@ -127,11 +127,6 @@ document.addEventListener('DOMContentLoaded', function () {
             const capacities = data.map(item => item.totalUnavailableCapacity);
             initializeChart(labels, capacities, isFuelType, isGeoLocation);
         }
-
-        // const labels = data.map(item => fuelTypeMap[item.fuelType]);
-        // const capacities = data.map(item => item.totalUnavailableCapacity);
-
-        // initializeChart(labels, capacities, isFuelType, isGeoLocation);
     }
 
     // Initialize chart with default data

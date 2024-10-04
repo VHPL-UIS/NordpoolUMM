@@ -22,8 +22,8 @@ To set up and run the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone /home/vahid/DEV/NordpoolUMMAppTask
-    cd NordpoolUMMAppTask
+    git clone https://github.com/VHPL-UIS/NordpoolUMM
+    cd NordpoolUMM
     ```
 
 2. The backend will start and listen on a localhost port. Open your browser and navigate to the following URLs to access the API:
@@ -36,7 +36,12 @@ To set up and run the project locally, follow these steps:
     - Without date:
       ```
       http://localhost:{port}/api/umm/production-unavailability
+
       ```
+3. A simple visualization is provided with Chart.js through the localhost:
+```
+http://localhost:5257/html/index.html
+```
 
 ## Usage
 Once the backend is running, you can use the frontend to visualize the data. The frontend is built with JavaScript and Chart.js, providing an interactive interface for analyzing urgent market messages.
