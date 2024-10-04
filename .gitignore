@@ -1,0 +1,40 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj
+*.http
+*.sln
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Chart.js
+chartjs/
+
+# Environment variables
+.env
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp

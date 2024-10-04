@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unavailable Capacity Chart</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@latest"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script> -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Filter by Date</h3>
+            <label for="start-date">Start Date:</label>
+            <input type="datetime-local" id="start-date" value="2024-09-21T00:00">
+            
+            <label for="end-date">End Date:</label>
+            <input type="datetime-local" id="end-date" value="2024-09-22T00:00">
+            
+            <button id="update-chart">Update Chart</button>
+        </div>
+
+        <div class="main-content">
+            <canvas id="capacityChart"></canvas>
+        </div>
+    </div>
+
+    <!-- <script src="/js/signalRHandler.js"></script> -->
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
